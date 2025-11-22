@@ -7,7 +7,7 @@ import java.util.Random;
 public class UrlService {
 
     private final Map<String, String> urlMap = new HashMap<>();
-    private final String baseUrl = "http://localhost:4567/";
+    private final String baseUrl = "http://localhost:3000/";
 
     public String shortenUrl(String longUrl) {
         String code = generateCode();
